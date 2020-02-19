@@ -1,0 +1,11 @@
+#img_field{
+    width: 360px;
+    height: 420px;;
+}
+
+.slider{
+    background: url("../img/banner.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
