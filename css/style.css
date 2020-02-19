@@ -1,6 +1,5 @@
 #img_field{
-    width: 360px;
-    height: 420px;;
+    width: 15rem;
 }
 
 .slider{
@@ -8,4 +7,23 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body.ini {
+  background: #007bff;
+  background: linear-gradient(to right,#33aeff, #FFFFFF);
 }

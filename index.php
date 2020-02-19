@@ -1,5 +1,6 @@
 <?php
 require 'vendor/autoload.php';
+use Aws\Rekognition\RekognitionClient;
 ?>
 
 <!doctype html>
@@ -18,7 +19,7 @@ require 'vendor/autoload.php';
 
 </head>
 
-<body>
+<body class="ini">
 
     <section class="container-fluid slider d-flex justify-content-center align-items-center">
 
@@ -80,6 +81,11 @@ require 'vendor/autoload.php';
         </div>
     </div>
     </div>
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 mt-4">
+            <div class="container text-center">
+                <small>Copyright &copy; JBM Rekognizer is a mark from Jorge Blanquicett</small>
+            </div>
+        </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
